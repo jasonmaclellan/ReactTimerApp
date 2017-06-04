@@ -46,8 +46,6 @@ var Countdown = React.createClass({
         this.setState({ countdownStatus: 'stopped' });
       }
     }, 1000);
-
-
   },
   handleStatusChange: function(newStatus) {
     this.setState({
